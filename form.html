@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Nome da Aplicação</title>
+</head>
+<body>
+	<form action="/teste.php" method="POST">
+		<!-- tag radio -->
+		Radio: 
+		1
+		<input type="radio" value="1" name="valor"/> 
+		2
+		<input type="radio" value="2" name="valor"/>
+		3
+		<input type="radio" value="3" name="valor"/>
+		4
+		<input type="radio" value="4" name="valor"/>
+		5
+		<input type="radio" value="5" name="valor"/>
+		6
+		<input type="radio" value="6" name="valor"/>
+
+		<!-- tag select -->
+		<br>
+		Selecione: 
+		<select name="sel">
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="teste">Teste</option>
+		  <option value="audi">Audi</option>
+		</select>
+		<br>
+		<!-- texto normal  -->
+		Nome: <input type="text" name="nome"> <br>
+
+		<!-- numero -->
+		Numero Favorito: <input type="number" name="numero"> <br>
+
+		<!-- email -->
+		E-mail 
+		<input type="email" name="email"><br>
+
+		<!-- checkbox -->
+		Escolha seus numeros favoritos:
+		13 <input type="checkbox" name="ckb13" value='13'>
+		7 <input type="checkbox"  name="ckb7"  value='7'>
+		55 <input type="checkbox" name="ckb55" value='55'>
+
+		<!-- pula linha -->
+		<br> 
+		<!--  botão de envio de dados para o server -->
+		<input type="submit" value="Enviar"/>
+		
+	</form>
+</body>
+</html>
+
